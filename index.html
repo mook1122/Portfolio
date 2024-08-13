@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/font.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
 
-    <header>
-        <div class="logo">
-            <p>MOOK</p>
+    <header class="flex-container">
+        <div class="width-1200 header-item">
+            <h1 class="font-title"><a href="/">MOOK</a></h1>
+
+            <ul class="header-menu">
+                <li><a href="#home" class="font-medium">Home</a></li>
+                <li><a href="#about" class="font-medium">About</a></li>
+                <li><a href="#contact" class="font-medium">Contact</a></li>
+
+            </ul>
         </div>
     </header>
 
-    
+    <div class="book-container flex-container">
 
-    <script src="index.js"></script>
+        <div class="width-1200 book">
+
+            <div class="left-page">
+                <!-- 왼쪽 페이지 내용 -->
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam doloremque assumenda nobis ipsa
+                    facere deleniti reprehenderit magni error impedit! Esse maiores incidunt dicta velit iure corporis
+                    facilis! Laboriosam, aliquam ipsam.</p>
+            </div>
+            <div class="center-fold"></div>
+
+            <div class="right-page">
+                <!-- 오른쪽 페이지 내용 -->
+                <p>오른쪽</p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p class="font-small">© 2024 Mook Portfolio</p>
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
