@@ -1,13 +1,13 @@
 * {
-  font-family: 'Pretendard-Regular';
+    font-family: 'Pretendard-Regular';
 }
 
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-style: normal;
-  }
-  
+}
+
 
 :root {
     --font-small: 0.875rem;
@@ -20,6 +20,8 @@
     /* 24px */
     --font-title: 2rem;
     /* 32px */
+    --font-big-title: 3rem;
+
 }
 
 @media (max-width: 768px) {
@@ -34,6 +36,8 @@
         /* 20px */
         --font-title: 1.5rem;
         /* 24px */
+        --font-big-title: 2.5rem;
+
     }
 }
 
@@ -49,6 +53,8 @@
         /* 16px */
         --font-title: 1.25rem;
         /* 20px */
+        --font-big-title: 1.6rem;
+
     }
 }
 
@@ -71,6 +77,10 @@
 
 .font-title {
     font-size: var(--font-title);
+}
+
+.font-big-title {
+    font-size: var(--font-big-title);
 }
 
 .bold {

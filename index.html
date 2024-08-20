@@ -8,52 +8,222 @@
 
     <link rel="stylesheet" href="/style/font.css">
     <link rel="stylesheet" href="/style/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 
-    <header class="flex-container">
+    <header class="flex-center">
         <div class="width-1200 header-item">
-            <h1 class="font-title"><a href="/">MOOK</a></h1>
+            <h1 class="font-title"><a href="/">MOOK's Portfolio</a></h1>
 
             <ul class="header-menu">
-                <li><a href="#home" class="font-medium">Home</a></li>
-                <li><a href="#about" class="font-medium">About</a></li>
-                <li><a href="#contact" class="font-medium">Contact</a></li>
-
+                <li class="font-medium bold" data-target="home">Home</li>
+                <li class="font-medium bold" data-target="about">About</li>
+                <li class="font-medium bold" data-target="skill">Skill</li>
+                <li class="font-medium bold" data-target="project">Project</li>
             </ul>
         </div>
     </header>
 
-    <div class="book-container flex-container">
-
-        <div class="width-1200 book">
-
+    <div class="main-container">
+        <div class="main-item">
             <div class="left-page">
-                <!-- 왼쪽 페이지 내용 -->
-
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam doloremque assumenda nobis ipsa
-                    facere deleniti reprehenderit magni error impedit! Esse maiores incidunt dicta velit iure corporis
-                    facilis! Laboriosam, aliquam ipsam.</p>
             </div>
-            <div class="center-fold"></div>
 
             <div class="right-page">
-                <!-- 오른쪽 페이지 내용 -->
-                <p>오른쪽</p>
+                <div class="right-page-item" id="home">
 
+                    <div class="home-content">
+                        <p data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100"
+                            class="font-big-title bold">KIM KYUNG MOOK</p>
+                        <br>
+                        <div data-aos="fade-left" data-aos-duration="1100" data-aos-delay="300" class="under-bar"></div>
+                        <br>
+                        <p data-aos="fade-left" data-aos-duration="1100" data-aos-delay="500" class="font-medium">
+                            Front-end Developer</p>
+                        <br>
+                        <div data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700"
+                            class="move-about-btn font-medium bold" id="move-about">
+                            about me
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-page-item pd-70" id="about">
+
+                    <div class="about-content">
+
+                        <div class="about-sub-title">
+                            <p class="bold font-medium">
+                                - About Me
+                            </p>
+
+                            <div class="sub-title-bar"></div>
+                            <br>
+                            <p>안녕하세요 노력하는 개발자 김경묵 입니다.
+                                <br>
+                                시간을 내어 저의 포트폴리오를 봐주셔서 감사합니다.
+                            </p>
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="about-sub-title">
+                            <p class="bold font-medium">
+                                - Information
+                            </p>
+
+                            <div class="sub-title-bar"></div>
+                            <br>
+
+                            <div>
+                                <p>이름 : 김경묵</p>
+                                <p>생년월일 : 1998년 9월 2일</p>
+                                <p>주소지 : 인천광역시 부평구</p>
+                            </div>
+
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="about-sub-title">
+                            <p class="bold font-medium">
+                                - Interview
+                            </p>
+
+                            <div class="sub-title-bar"></div>
+                            <br>
+
+                            <div>
+                                <p class="question bold">Q. 프론트엔드 개발자를 선택한 이유</p>
+                                <p>개발에 입문하면서 코드로 창의적인 아이디어를 구현할 수 있다는 점에 매료되었습니다. 특히 프론트엔드 개발은 사용자와의 접점을 만드는 중요한 역할을 하기에
+                                    더욱 흥미를 느꼈습니다. 꾸준한 학습과 실전 경험을 통해 전문성을 키워가고자 합니다.</p>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="question bold">Q. 추구하는 개발 방향성</p>
+                                <p>제가 추구하는 개발 방향성은 사용자 입장에서 직관적이고 쉽게 사용할 수 있는 인터페이스를 만드는 것입니다. 코드의 품질을 높이는 데
+                                    집중하고, 팀과의 협업을 통해 더 나은 솔루션을 제공하는 개발자가 되고 싶습니다.</p>
+                            </div>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="right-page-item pd-70" id="skill">
+
+                    <div class="skill-content">
+                        <p class="font-title bold">Skill & Tools</p>
+                        <br>
+                        <div>
+                            <p class="font-medium bold">FrontEnd</p>
+                            <div class="sub-title-bar"></div>
+                            <div class="skill-img-box">
+                                <span class="font-small img-con bold">
+                                    <img src="/img/react.png" alt=""> &nbsp; React.js
+                                </span>
+                                <span class="font-small img-con bold">
+                                    <img src="/img/html.png" alt=""> &nbsp; HTML
+                                </span>
+                                <span class="font-small img-con bold">
+                                    <img src="/img/css.png" alt=""> &nbsp; CSS
+                                </span>
+                                <span class="font-small img-con bold">
+                                    <img src="/img/js.png" alt=""> &nbsp; JavaScript
+                                </span>
+
+                            </div>
+                        </div>
+
+                        <br>
+                        <div>
+                            <p class="font-medium bold">BackEnd</p>
+                            <div class="sub-title-bar"></div>
+                            <div class="skill-img-box">
+                                <span class="font-small img-con bold">
+                                    <img src="/img/node.png" alt=""> &nbsp; Node.js
+                                </span>
+                                <span class="font-small img-con bold">
+                                    <img src="/img/db.png" alt=""> &nbsp; MongoDB
+                                </span>
+
+                            </div>
+                        </div>
+
+                        <br>
+                        <div>
+                            <p class="font-medium bold">학습중</p>
+                            <div class="sub-title-bar"></div>
+                            <div class="skill-img-box">
+                                <span class="font-small img-con bold">
+                                    <img src="/img/next.png" alt=""> &nbsp; Next.js
+                                </span>
+                                <span class="font-small img-con bold">
+                                    <img src="/img/ts.png" alt=""> &nbsp; TypeScript
+                                </span>
+
+                            </div>
+                        </div>
+
+                        <br>
+                        <div>
+                            <p class="font-medium bold">사용경험</p>
+                            <div class="sub-title-bar"></div>
+                            <div class="skill-img-box">
+                                <span class="font-small img-con bold">
+                                    AWS - Elastic Beanstalk
+                                </span>
+                                <span class="font-small img-con bold">
+                                    AWS - S3
+                                </span>
+                                <span class="font-small img-con bold">
+                                    AWS - Route53
+                                </span>
+                            </div>
+                            <div class="skill-img-box">
+                                <span class="font-small img-con bold">
+                                    FireBase - hosting
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-page-item pd-70 active " id="project">
+                    <div class="about-content">
+
+                        <div class="about-sub-title">
+                            <p class="font-title bold">Project</p>
+                            <br>
+                            <p>안녕하세요 노력하는 개발자 김경묵 입니다.
+                                <br>
+                                시간을 내어 저의 포트폴리오를 봐주셔서 감사합니다.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-
         </div>
-
-
     </div>
+
 
     <footer>
         <p class="font-small">© 2024 Mook Portfolio</p>
     </footer>
 
 
+    <script>
+        AOS.init();
+    </script>
     <script src="script.js"></script>
 
 </body>
