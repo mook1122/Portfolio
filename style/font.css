@@ -9,6 +9,8 @@
 }
 
 
+
+
 :root {
     --font-small: 0.875rem;
     /* 14px */
@@ -20,7 +22,7 @@
     /* 24px */
     --font-title: 2rem;
     /* 32px */
-    --font-big-title: 3rem;
+    --font-big-title: 3.3rem;
 
 }
 
@@ -36,7 +38,7 @@
         /* 20px */
         --font-title: 1.5rem;
         /* 24px */
-        --font-big-title: 2.5rem;
+        --font-big-title: 2.6rem;
 
     }
 }
@@ -53,7 +55,7 @@
         /* 16px */
         --font-title: 1.25rem;
         /* 20px */
-        --font-big-title: 1.6rem;
+        --font-big-title: 1.8rem;
 
     }
 }
